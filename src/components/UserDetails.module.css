@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    border:solid black;
+    align-items: center;
+    height:100px;
+    width:80%;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.main:hover{
+    background-color: olive;
+}
+.name{
+    display: flex;
+    gap:8px;   
+}
+
+.address{
+    margin-top:5px;
+}
+
+.img {
+    border:solid black;
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+
+    
+}
+
+.follow_btn{
+    border-radius: 20px;
+    padding:10px 25px 10px 25px;
+    background-color: grey;
+}
+
+.follow_btn:hover{
+    background-color: white;
+}
